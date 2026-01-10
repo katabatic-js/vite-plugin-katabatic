@@ -1,0 +1,28 @@
+{
+  "name": "vite-plugin-katabatic",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katabatic-js/vite-plugin-katabatic.git"
+  },
+  "keywords": [
+    "katabatic",
+    "vite-plugin"
+  ],
+  "files": ["src", "types"],
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./types/index.d.ts"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0"
+  },
+  "dependencies": {
+    "@katabatic/compiler": "^1.1.0"
+  }
+}
