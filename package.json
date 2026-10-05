@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-katabatic",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "repository": {
     "type": "git",
@@ -23,6 +23,6 @@
     "vite": "^7.3.0"
   },
   "dependencies": {
-    "@katabatic/compiler": "^1.1.0"
+    "@katabatic/compiler": "^1.1.9"
   }
 }
